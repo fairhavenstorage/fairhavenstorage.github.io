@@ -1,0 +1,110 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 13px;
+    height: 100%;
+	background: #202020;
+    color: #000;
+    font-family: 'Titillium Web', sans-serif;
+}
+#main {
+	width: 90%;
+	background: #2D2D32;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	z-index: 2;
+	color: white;
+	margin-bottom: 5%;
+	min-height: 90vh;
+	padding-bottom: 0%;
+}
+.accent {
+	color: tomato;
+}
+.name-container {
+	padding: 35px 0px;
+	width: 100%;
+	text-align: center;
+	white-space: nowrap;
+}
+.logo-letters {
+	display: inline-block;
+}
+.logo-accent {
+	font-size: 60px;
+	color: tomato;
+}
+.logo-white {
+	font-size: 40px;
+	color: #fff;
+}
+.name-container {
+}
+
+.content {
+	font-size: 26px;
+    padding: 20px 5%;
+}
+.content ul {
+	list-style-type: none;
+    padding: 5px 0px;
+}
+.content li {
+	/*white-space: nowrap;*/
+}
+
+.content.large-60 {
+	width: 60%;
+}
+
+.content.right {
+	text-align: right;
+}
+
+.content.center {
+	text-align: center;
+    margin: 50px;
+}
+
+.content.big {
+	font-size: 40px;
+}
+
+#map-container {
+	width: 100%;
+	text-align: center;
+	height: 400px;
+	padding-bottom: 35px;
+}
+.map {
+	width: 90%;
+	height: 400px;
+}
+a {
+	color: tomato;
+}
+a:visited {
+	color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+	#map-container, .map {
+		height: 300px;
+	}
+	.content {
+		font-size: 22px;
+	}
+	.content.large-60 {
+		width: 90%;
+	}
+	.content.big {
+		font-size: 30px;
+	}
+}
+
